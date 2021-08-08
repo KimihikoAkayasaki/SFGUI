@@ -24,7 +24,7 @@ option( SFML_STATIC_LIBRARIES   "Do you want to link SFML statically?"          
 
 # Find packages.
 find_package( OpenGL REQUIRED )
-find_package( SFML 2.5 REQUIRED COMPONENTS graphics window system )
+#find_package( SFML 2.5 REQUIRED COMPONENTS graphics window system )
 
 set( INCLUDE_PATH "${PROJECT_SOURCE_DIR}/include/" )
 set( SOURCE_PATH "${PROJECT_SOURCE_DIR}/src/" )
